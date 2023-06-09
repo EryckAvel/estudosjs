@@ -1,3 +1,5 @@
-document.getElementById("texto").innerHTML = "Meu Primeiro Texto <b>JS</b>!";
-alert(10+5)
-console.log("Oi isso e um alerta!");
+function teste(){
+    document.getElementById("texto").innerHTML = "Meu Primeiro Texto <b>JS</b>!";
+    alert("TESTE");
+    console.log("Oi isso e um alerta!");
+}
