@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+    <!-- Parte que ainda sera aborda mais a frente porem sera necessario pra melhor compreensão -->
+    <style>
+        h1 {
+            color: aqua;
+            background: red;
+        }
+
+        p {
+            color: white;
+            background: black;
+        }
+
+        /* Atribuindo estilo atravez do id */
+        /* Id não pode ser sobrescrito */
+        #cabecalhoPrincipal {
+            background: purple;
+        }
+
+        /* Atribuindo estilo atravez da Class */
+        .fundoVermelho {
+            color: antiquewhite;
+        }
+
+        .bold {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="cabecalhoPrincipal" class="fundoVermelho">Vai vir aqui</h1>
+    <h1 id="cabecalhoSecundario" class="fundoVermelhor">Vai vir aqui</h1>
+    <!-- Id = Atributo de atribuição de identificador unico para uma tag -->
+    <!-- Class = Identificador de estado -->
+    <p>Lorem <b class="bold">ipsum dolor sit amet</b> consectetur adipisicing elit. Temporibus quas delectus quod sint eveniet quibusdam in eligendi possimus totam! Sapiente ducimus, accusantium delectus consequatur saepe architecto placeat commodi deserunt perferendis.</p>
+</body>
+</html>
