@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto da Aula 571</title>
+    <style>
+      menu,
+        ul {
+          display: flex;
+          list-style: none;
+          padding: 0;
+          width: 400px;
+        }
+
+        li {
+          flex-grow: 1;
+        }
+
+        button {
+          width: 100%;
+          background: blue;
+        }
+    </style>
+</head>
+<body>
+  <h1>Site de Teste</h1>
+  <nav>
+      <ul>
+        <li><a href="#">Página inicial</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Saida</a></li>
+      </ul>
+  </nav>
+  <menu>
+    <li><button onclick="copy()">Copy</button></li>
+    <li><button onclick="cut()">Cut</button></li>
+    <li><button onclick="paste()">Paste</button></li>
+  </menu>
+</body>
+</html>
